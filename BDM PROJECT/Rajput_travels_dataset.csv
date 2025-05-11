@@ -1,0 +1,484 @@
+Customer_ID,Booking_Date,Pickup_Location,Destination,No_of_Days,Distance_km,Season,Car_Name,Total_Amount,Total_Cost,Total_Profit,Mode_of_Payment,Additional_Costs,Day_of_Week,Customer_Segment,Seasonal_Demand,Destination_Popularity
+1,1/1/2024,Udaipur,Bangalore,6,1800,Winter,Artica,34200,12600,21600,Online,436,Monday,Mid-Spender,Peak,Low
+2,1/2/2024,Jaipur,Odisha,7,2100,Winter,Innova,48300,16800,31500,Online,306,Tuesday,High-Spender,Peak,High
+3,1/3/2024,Shimla,Agra,4,2248,Winter,Shift Dizire,35968,13488,22480,Card,61,Wednesday,Mid-Spender,Peak,Low
+4,1/4/2024,Bangalore,Pune,7,2476,Winter,Carence,54472,19808,34664,Cash,113,Thursday,High-Spender,Peak,Low
+5,1/5/2024,Pune,Odisha,4,1200,Winter,Aura,19200,7200,12000,Online,345,Friday,Budget-Spender,Peak,High
+6,1/6/2024,Pune,Rishikesh,3,2375,Winter,Aura,38000,14250,23750,Card,318,Saturday,Mid-Spender,Peak,High
+7,1/7/2024,Goa,Varanasi,5,1500,Winter,Crista,40500,15000,25500,Cash,220,Sunday,High-Spender,Peak,Medium
+8,1/8/2024,Shimla,Manali,7,2100,Winter,Artica,39900,14700,25200,Online,465,Monday,Mid-Spender,Peak,Low
+9,1/9/2024,Delhi,Bangalore,2,2150,Winter,Toyota Rumion,45150,17200,27950,Cash,255,Tuesday,High-Spender,Peak,Low
+10,1/10/2024,Udaipur,Delhi,1,1656,Winter,Crista,44712,16560,28152,Online,59,Wednesday,High-Spender,Peak,High
+11,1/11/2024,Shimla,Goa,1,724,Winter,Innova,16652,5792,10860,Card,265,Thursday,Budget-Spender,Peak,High
+12,1/12/2024,Agra,Delhi,1,1192,Winter,Etios,19072,7152,11920,Card,57,Friday,Budget-Spender,Peak,High
+13,1/13/2024,Rishikesh,Agra,7,2100,Winter,Artica,39900,14700,25200,Online,359,Saturday,Mid-Spender,Peak,Low
+14,1/14/2024,Mumbai,Delhi,3,1765,Winter,Etios,28240,10590,17650,Cash,244,Sunday,Mid-Spender,Peak,High
+15,1/15/2024,Udaipur,Kolkata,4,1798,Winter,Tata Zest,28768,10788,17980,Online,71,Monday,Mid-Spender,Peak,Low
+16,1/16/2024,Kolkata,Manali,7,2100,Winter,Carence,46200,16800,29400,Cash,57,Tuesday,High-Spender,Peak,Low
+17,1/17/2024,Varanasi,Odisha,4,1200,Winter,Tata Zest,19200,7200,12000,Cash,371,Wednesday,Budget-Spender,Peak,High
+18,1/18/2024,Mumbai,Varanasi,3,2465,Winter,Shift Dizire,39440,14790,24650,Card,229,Thursday,Mid-Spender,Peak,Medium
+19,1/19/2024,Goa,Hyderabad,2,2198,Winter,Etios,35168,13188,21980,Cash,291,Friday,Mid-Spender,Peak,Medium
+20,1/20/2024,Udaipur,Shimla,7,2115,Winter,Innova,48645,16920,31725,Online,148,Saturday,High-Spender,Peak,Medium
+21,1/21/2024,Rishikesh,Agra,4,1200,Winter,Innova,27600,9600,18000,Card,200,Sunday,Mid-Spender,Peak,Low
+22,1/22/2024,Delhi,Rishikesh,4,2496,Winter,Artica,47424,17472,29952,Card,182,Monday,High-Spender,Peak,High
+23,1/23/2024,Jaipur,Agra,3,917,Winter,Carence,20174,7336,12838,Cash,468,Tuesday,Budget-Spender,Peak,Low
+24,1/24/2024,Varanasi,Manali,4,2365,Winter,Artica,44935,16555,28380,Online,169,Wednesday,High-Spender,Peak,Low
+25,1/25/2024,Mumbai,Bangalore,1,1959,Winter,Aura,31344,11754,19590,Cash,203,Thursday,Mid-Spender,Peak,Low
+26,1/26/2024,Jaipur,Udaipur,7,2100,Winter,Shift Dizire,33600,12600,21000,Online,289,Friday,Mid-Spender,Peak,Medium
+27,1/27/2024,Jaipur,Mumbai,4,1200,Winter,Etios,19200,7200,12000,Online,387,Saturday,Budget-Spender,Peak,Medium
+28,1/28/2024,Kolkata,Agra,1,2130,Winter,Tata Zest,34080,12780,21300,Card,355,Sunday,Mid-Spender,Peak,Low
+29,1/29/2024,Rishikesh,Pune,1,1519,Winter,Artica,28861,10633,18228,Cash,408,Monday,Mid-Spender,Peak,Low
+30,1/30/2024,Kolkata,Varanasi,7,2100,Winter,Artica,39900,14700,25200,Card,89,Tuesday,Mid-Spender,Peak,Medium
+31,1/31/2024,Varanasi,Odisha,1,2460,Winter,Tata Zest,39360,14760,24600,Online,157,Wednesday,Mid-Spender,Peak,High
+32,2/1/2024,Varanasi,Rishikesh,4,1210,Winter,Crista,32670,12100,20570,Online,422,Thursday,Mid-Spender,Off-Peak,High
+33,2/2/2024,Varanasi,Goa,7,2100,Winter,Carence,46200,16800,29400,Online,129,Friday,High-Spender,Off-Peak,High
+34,2/3/2024,Varanasi,Jaipur,7,2100,Winter,Tata Zest,33600,12600,21000,Card,235,Saturday,Mid-Spender,Off-Peak,High
+35,2/4/2024,Mumbai,Varanasi,2,2026,Winter,Aura,32416,12156,20260,Online,56,Sunday,Mid-Spender,Off-Peak,Medium
+36,2/5/2024,Jaipur,Udaipur,4,1891,Winter,Tata Zest,30256,11346,18910,Online,174,Monday,Mid-Spender,Off-Peak,Medium
+37,2/6/2024,Kolkata,Bangalore,5,2170,Winter,Tata Zest,34720,13020,21700,Online,405,Tuesday,Mid-Spender,Off-Peak,Low
+38,2/7/2024,Jaipur,Hyderabad,3,900,Winter,Artica,17100,6300,10800,Card,398,Wednesday,Budget-Spender,Off-Peak,Medium
+39,2/8/2024,Rishikesh,Chennai,3,1337,Winter,Etios,21392,8022,13370,Cash,292,Thursday,Budget-Spender,Off-Peak,Low
+40,2/9/2024,Kolkata,Manali,3,1256,Winter,Artica,23864,8792,15072,Cash,480,Friday,Mid-Spender,Off-Peak,Low
+41,2/10/2024,Rishikesh,Varanasi,4,1200,Winter,Toyota Rumion,25200,9600,15600,Online,108,Saturday,Mid-Spender,Off-Peak,Medium
+42,2/11/2024,Shimla,Udaipur,1,1019,Winter,Shift Dizire,16304,6114,10190,Card,224,Sunday,Budget-Spender,Off-Peak,Medium
+43,2/12/2024,Kolkata,Varanasi,7,2100,Winter,Toyota Rumion,44100,16800,27300,Card,77,Monday,High-Spender,Off-Peak,Medium
+44,2/13/2024,Bangalore,Jaipur,4,2243,Winter,Crista,60561,22430,38131,Cash,272,Tuesday,High-Spender,Off-Peak,High
+45,2/14/2024,Jaipur,Kolkata,4,1200,Winter,Innova,27600,9600,18000,Card,312,Wednesday,Mid-Spender,Off-Peak,Low
+46,2/15/2024,Odisha,Bangalore,2,1258,Winter,Artica,23902,8806,15096,Cash,352,Thursday,Mid-Spender,Off-Peak,Low
+47,2/16/2024,Delhi,Varanasi,1,2016,Winter,Etios,32256,12096,20160,Cash,80,Friday,Mid-Spender,Off-Peak,Medium
+48,2/17/2024,Jaipur,Udaipur,4,1350,Winter,Carence,29700,10800,18900,Cash,377,Saturday,Mid-Spender,Off-Peak,Medium
+49,2/18/2024,Pune,Hyderabad,6,1939,Winter,Shift Dizire,31024,11634,19390,Cash,121,Sunday,Mid-Spender,Off-Peak,Medium
+50,2/19/2024,Varanasi,Agra,7,2100,Winter,Shift Dizire,33600,12600,21000,Online,82,Monday,Mid-Spender,Off-Peak,Low
+51,2/20/2024,Shimla,Delhi,6,1800,Winter,Shift Dizire,28800,10800,18000,Cash,348,Tuesday,Mid-Spender,Off-Peak,High
+52,2/21/2024,Rishikesh,Chennai,1,1710,Winter,Artica,32490,11970,20520,Card,384,Wednesday,Mid-Spender,Off-Peak,Low
+53,2/22/2024,Goa,Hyderabad,3,1306,Winter,Carence,28732,10448,18284,Cash,422,Thursday,Mid-Spender,Off-Peak,Medium
+54,2/23/2024,Agra,Rishikesh,3,946,Winter,Carence,20812,7568,13244,Online,257,Friday,Budget-Spender,Off-Peak,High
+55,2/24/2024,Goa,Rishikesh,4,1200,Winter,Innova,27600,9600,18000,Online,288,Saturday,Mid-Spender,Off-Peak,High
+56,2/25/2024,Kolkata,Mumbai,7,2100,Winter,Artica,39900,14700,25200,Online,498,Sunday,Mid-Spender,Off-Peak,Medium
+57,2/26/2024,Goa,Jaipur,4,1200,Winter,Crista,32400,12000,20400,Online,143,Monday,Mid-Spender,Off-Peak,High
+58,2/27/2024,Chennai,Mumbai,7,2100,Winter,Carence,46200,16800,29400,Card,242,Tuesday,High-Spender,Off-Peak,Medium
+59,2/28/2024,Hyderabad,Rishikesh,1,1926,Winter,Shift Dizire,30816,11556,19260,Cash,146,Wednesday,Mid-Spender,Off-Peak,High
+60,2/29/2024,Varanasi,Kolkata,2,600,Winter,Etios,9600,3600,6000,Card,234,Thursday,Budget-Spender,Off-Peak,Low
+61,3/1/2024,Shimla,Pune,6,1800,Spring,Etios,28800,10800,18000,Cash,395,Friday,Mid-Spender,Off-Peak,Low
+62,3/2/2024,Udaipur,Agra,1,2000,Spring,Innova,46000,16000,30000,Card,245,Saturday,High-Spender,Off-Peak,Low
+63,3/3/2024,Kolkata,Jaipur,7,2100,Spring,Innova,48300,16800,31500,Cash,136,Sunday,High-Spender,Off-Peak,High
+64,3/4/2024,Udaipur,Kolkata,2,977,Spring,Crista,26379,9770,16609,Online,151,Monday,Mid-Spender,Off-Peak,Low
+65,3/5/2024,Goa,Kolkata,1,1495,Spring,Shift Dizire,23920,8970,14950,Cash,130,Tuesday,Mid-Spender,Off-Peak,Low
+66,3/6/2024,Hyderabad,Odisha,4,2332,Spring,Artica,44308,16324,27984,Card,420,Wednesday,High-Spender,Off-Peak,High
+67,3/7/2024,Agra,Odisha,3,1400,Spring,Etios,22400,8400,14000,Online,402,Thursday,Budget-Spender,Off-Peak,High
+68,3/8/2024,Jaipur,Shimla,5,1500,Spring,Crista,40500,15000,25500,Cash,272,Friday,High-Spender,Off-Peak,Medium
+69,3/9/2024,Agra,Varanasi,6,1800,Spring,Crista,48600,18000,30600,Cash,84,Saturday,High-Spender,Off-Peak,Medium
+70,3/10/2024,Hyderabad,Udaipur,4,1200,Spring,Etios,19200,7200,12000,Cash,303,Sunday,Budget-Spender,Off-Peak,Medium
+71,3/11/2024,Delhi,Shimla,4,2210,Spring,Carence,48620,17680,30940,Cash,90,Monday,High-Spender,Off-Peak,Medium
+72,3/12/2024,Hyderabad,Odisha,3,1129,Spring,Innova,25967,9032,16935,Online,458,Tuesday,Mid-Spender,Off-Peak,High
+73,3/13/2024,Chennai,Pune,5,2078,Spring,Artica,39482,14546,24936,Card,372,Wednesday,Mid-Spender,Off-Peak,Low
+74,3/14/2024,Kolkata,Chennai,6,1800,Spring,Shift Dizire,28800,10800,18000,Online,282,Thursday,Mid-Spender,Off-Peak,Low
+75,3/15/2024,Bangalore,Pune,4,1200,Spring,Aura,19200,7200,12000,Cash,221,Friday,Budget-Spender,Off-Peak,Low
+76,3/16/2024,Bangalore,Hyderabad,7,2100,Spring,Etios,33600,12600,21000,Card,422,Saturday,Mid-Spender,Off-Peak,Medium
+77,3/17/2024,Hyderabad,Mumbai,3,1538,Spring,Etios,24608,9228,15380,Cash,424,Sunday,Mid-Spender,Off-Peak,Medium
+78,3/18/2024,Delhi,Goa,5,1965,Spring,Aura,31440,11790,19650,Card,186,Monday,Mid-Spender,Off-Peak,High
+79,3/19/2024,Odisha,Jaipur,2,2203,Spring,Aura,35248,13218,22030,Cash,474,Tuesday,Mid-Spender,Off-Peak,High
+80,3/20/2024,Agra,Mumbai,7,2100,Spring,Innova,48300,16800,31500,Card,195,Wednesday,High-Spender,Off-Peak,Medium
+81,3/21/2024,Rishikesh,Delhi,6,1800,Spring,Tata Zest,28800,10800,18000,Cash,97,Thursday,Mid-Spender,Off-Peak,High
+82,3/22/2024,Kolkata,Delhi,3,1363,Spring,Tata Zest,21808,8178,13630,Online,237,Friday,Budget-Spender,Off-Peak,High
+83,3/23/2024,Bangalore,Chennai,3,1862,Spring,Etios,29792,11172,18620,Card,392,Saturday,Mid-Spender,Off-Peak,Low
+84,3/24/2024,Varanasi,Rishikesh,7,2100,Spring,Tata Zest,33600,12600,21000,Card,126,Sunday,Mid-Spender,Off-Peak,High
+85,3/25/2024,Shimla,Goa,7,2100,Spring,Carence,46200,16800,29400,Card,196,Monday,High-Spender,Off-Peak,High
+86,3/28/2024,Manali,Goa,4,1200,Spring,Etios,19200,7200,12000,Cash,357,Thursday,Budget-Spender,Off-Peak,High
+87,3/29/2024,Pune,Agra,5,1837,Spring,Tata Zest,29392,11022,18370,Card,56,Friday,Mid-Spender,Off-Peak,Low
+88,3/30/2024,Odisha,Udaipur,6,1800,Spring,Innova,41400,14400,27000,Cash,222,Saturday,High-Spender,Off-Peak,Medium
+89,3/31/2024,Agra,Odisha,7,2100,Spring,Aura,33600,12600,21000,Online,450,Sunday,Mid-Spender,Off-Peak,High
+90,4/1/2024,Goa,Bangalore,2,2427,Spring,Tata Zest,38832,14562,24270,Card,133,Monday,Mid-Spender,Off-Peak,Low
+91,4/3/2024,Chennai,Varanasi,2,820,Spring,Crista,22140,8200,13940,Cash,458,Wednesday,Budget-Spender,Off-Peak,Medium
+92,4/4/2024,Kolkata,Bangalore,3,1431,Spring,Etios,22896,8586,14310,Card,281,Thursday,Budget-Spender,Off-Peak,Low
+93,4/5/2024,Mumbai,Jaipur,2,1371,Spring,Aura,21936,8226,13710,Card,185,Friday,Budget-Spender,Off-Peak,High
+94,4/6/2024,Manali,Odisha,2,2431,Spring,Carence,53482,19448,34034,Online,290,Saturday,High-Spender,Off-Peak,High
+95,4/7/2024,Delhi,Odisha,5,1500,Spring,Shift Dizire,24000,9000,15000,Cash,352,Sunday,Mid-Spender,Off-Peak,High
+96,4/9/2024,Goa,Delhi,1,1772,Spring,Etios,28352,10632,17720,Cash,344,Tuesday,Mid-Spender,Off-Peak,High
+97,4/10/2024,Agra,Hyderabad,6,1800,Spring,Toyota Rumion,37800,14400,23400,Online,284,Wednesday,Mid-Spender,Off-Peak,Medium
+98,4/11/2024,Mumbai,Agra,5,1500,Spring,Artica,28500,10500,18000,Online,409,Thursday,Mid-Spender,Off-Peak,Low
+99,4/12/2024,Bangalore,Manali,1,1639,Spring,Etios,26224,9834,16390,Card,444,Friday,Mid-Spender,Off-Peak,Low
+100,4/13/2024,Delhi,Goa,5,1500,Spring,Etios,24000,9000,15000,Online,247,Saturday,Mid-Spender,Off-Peak,High
+101,4/14/2024,Pune,Rishikesh,5,1978,Spring,Aura,31648,11868,19780,Online,270,Sunday,Mid-Spender,Off-Peak,High
+102,4/15/2024,Hyderabad,Rishikesh,2,778,Spring,Shift Dizire,12448,4668,7780,Online,444,Monday,Budget-Spender,Off-Peak,High
+103,4/17/2024,Udaipur,Manali,4,2036,Spring,Tata Zest,32576,12216,20360,Online,153,Wednesday,Mid-Spender,Off-Peak,Low
+104,4/18/2024,Bangalore,Rishikesh,4,1795,Spring,Artica,34105,12565,21540,Cash,101,Thursday,Mid-Spender,Off-Peak,High
+105,4/19/2024,Shimla,Delhi,5,1500,Spring,Tata Zest,24000,9000,15000,Online,329,Friday,Mid-Spender,Off-Peak,High
+106,4/20/2024,Chennai,Goa,1,568,Spring,Carence,12496,4544,7952,Card,427,Saturday,Budget-Spender,Off-Peak,High
+107,4/22/2024,Bangalore,Mumbai,1,670,Spring,Carence,14740,5360,9380,Card,341,Monday,Budget-Spender,Off-Peak,Medium
+108,4/23/2024,Jaipur,Pune,4,2473,Spring,Toyota Rumion,51933,19784,32149,Card,150,Tuesday,High-Spender,Off-Peak,Low
+109,4/24/2024,Udaipur,Mumbai,5,1500,Spring,Carence,33000,12000,21000,Online,217,Wednesday,Mid-Spender,Off-Peak,Medium
+110,4/25/2024,Agra,Rishikesh,5,2347,Spring,Innova,53981,18776,35205,Card,279,Thursday,High-Spender,Off-Peak,High
+111,4/26/2024,Mumbai,Rishikesh,6,1800,Spring,Toyota Rumion,37800,14400,23400,Card,339,Friday,Mid-Spender,Off-Peak,High
+112,4/28/2024,Jaipur,Shimla,4,1200,Spring,Tata Zest,19200,7200,12000,Card,299,Sunday,Budget-Spender,Off-Peak,Medium
+113,4/29/2024,Odisha,Udaipur,6,1800,Spring,Artica,34200,12600,21600,Cash,441,Monday,Mid-Spender,Off-Peak,Medium
+114,4/30/2024,Udaipur,Jaipur,1,400,Spring,Aura,6400,2400,4000,Card,422,Tuesday,Budget-Spender,Off-Peak,High
+115,5/1/2024,Shimla,Mumbai,1,2078,Spring,Carence,45716,16624,29092,Cash,176,Wednesday,High-Spender,Peak,Medium
+116,5/2/2024,Delhi,Pune,6,1800,Spring,Carence,39600,14400,25200,Card,159,Thursday,Mid-Spender,Peak,Low
+117,5/3/2024,Kolkata,Goa,5,1500,Spring,Tata Zest,24000,9000,15000,Cash,449,Friday,Mid-Spender,Peak,High
+118,5/4/2024,Pune,Delhi,3,1744,Spring,Artica,33136,12208,20928,Online,219,Saturday,Mid-Spender,Peak,High
+119,5/5/2024,Shimla,Delhi,6,1927,Spring,Toyota Rumion,40467,15416,25051,Cash,492,Sunday,High-Spender,Peak,High
+120,5/6/2024,Mumbai,Pune,4,1200,Spring,Carence,26400,9600,16800,Online,192,Monday,Mid-Spender,Peak,Low
+121,5/7/2024,Jaipur,Udaipur,2,2150,Spring,Aura,34400,12900,21500,Cash,467,Tuesday,Mid-Spender,Peak,Medium
+122,5/8/2024,Goa,Shimla,5,1921,Spring,Shift Dizire,30736,11526,19210,Cash,222,Wednesday,Mid-Spender,Peak,Medium
+123,5/9/2024,Shimla,Mumbai,3,1739,Spring,Etios,27824,10434,17390,Cash,493,Thursday,Mid-Spender,Peak,Medium
+124,5/10/2024,Agra,Varanasi,7,2100,Spring,Toyota Rumion,44100,16800,27300,Cash,94,Friday,High-Spender,Peak,Medium
+125,5/11/2024,Chennai,Shimla,1,1859,Spring,Tata Zest,29744,11154,18590,Cash,151,Saturday,Mid-Spender,Peak,Medium
+126,5/12/2024,Chennai,Mumbai,3,900,Spring,Aura,14400,5400,9000,Cash,268,Sunday,Budget-Spender,Peak,Medium
+127,5/13/2024,Goa,Rishikesh,1,513,Spring,Aura,8208,3078,5130,Cash,206,Monday,Budget-Spender,Peak,High
+128,5/14/2024,Bangalore,Pune,7,2100,Spring,Carence,46200,16800,29400,Online,282,Tuesday,High-Spender,Peak,Low
+129,5/15/2024,Kolkata,Agra,4,2295,Spring,Etios,36720,13770,22950,Card,493,Wednesday,Mid-Spender,Peak,Low
+130,5/16/2024,Bangalore,Mumbai,2,2429,Spring,Shift Dizire,38864,14574,24290,Card,323,Thursday,Mid-Spender,Peak,Medium
+131,5/17/2024,Chennai,Goa,3,973,Spring,Shift Dizire,15568,5838,9730,Online,342,Friday,Budget-Spender,Peak,High
+132,5/18/2024,Udaipur,Shimla,3,900,Spring,Innova,20700,7200,13500,Online,80,Saturday,Budget-Spender,Peak,Medium
+133,5/19/2024,Mumbai,Varanasi,4,1200,Spring,Crista,32400,12000,20400,Online,90,Sunday,Mid-Spender,Peak,Medium
+134,5/20/2024,Pune,Delhi,6,1800,Spring,Tata Zest,28800,10800,18000,Card,346,Monday,Mid-Spender,Peak,High
+135,5/21/2024,Rishikesh,Manali,1,450,Spring,Etios,7200,2700,4500,Online,353,Tuesday,Budget-Spender,Peak,Low
+136,5/22/2024,Delhi,Pune,3,2270,Spring,Carence,49940,18160,31780,Card,452,Wednesday,High-Spender,Peak,Low
+137,5/23/2024,Agra,Shimla,4,1200,Spring,Innova,27600,9600,18000,Cash,230,Thursday,Mid-Spender,Peak,Medium
+138,5/24/2024,Agra,Kolkata,1,440,Spring,Crista,11880,4400,7480,Card,92,Friday,Budget-Spender,Peak,Low
+139,5/25/2024,Mumbai,Varanasi,1,917,Spring,Etios,14672,5502,9170,Online,433,Saturday,Budget-Spender,Peak,Medium
+140,5/26/2024,Jaipur,Chennai,1,801,Spring,Toyota Rumion,16821,6408,10413,Cash,399,Sunday,Budget-Spender,Peak,Low
+141,5/27/2024,Rishikesh,Shimla,2,1100,Spring,Toyota Rumion,23100,8800,14300,Cash,360,Monday,Budget-Spender,Peak,Medium
+142,5/28/2024,Mumbai,Hyderabad,1,2319,Spring,Etios,37104,13914,23190,Card,410,Tuesday,Mid-Spender,Peak,Medium
+143,5/29/2024,Mumbai,Rishikesh,4,2209,Spring,Shift Dizire,35344,13254,22090,Cash,357,Wednesday,Mid-Spender,Peak,High
+144,5/30/2024,Jaipur,Kolkata,6,2393,Spring,Aura,38288,14358,23930,Online,412,Thursday,Mid-Spender,Peak,Low
+145,5/31/2024,Hyderabad,Manali,6,1800,Spring,Crista,48600,18000,30600,Online,257,Friday,High-Spender,Peak,Low
+146,6/1/2024,Shimla,Delhi,1,633,Monsoon,Toyota Rumion,13293,5064,8229,Cash,68,Saturday,Budget-Spender,Peak,High
+147,6/2/2024,Pune,Agra,1,2247,Monsoon,Innova,51681,17976,33705,Online,308,Sunday,High-Spender,Peak,Low
+148,6/3/2024,Agra,Goa,6,1916,Monsoon,Crista,51732,19160,32572,Online,212,Monday,High-Spender,Peak,High
+149,6/4/2024,Odisha,Udaipur,7,2100,Monsoon,Carence,46200,16800,29400,Online,239,Tuesday,High-Spender,Peak,Medium
+150,6/5/2024,Agra,Rishikesh,1,381,Monsoon,Artica,7239,2667,4572,Cash,380,Wednesday,Budget-Spender,Peak,High
+151,6/6/2024,Agra,Pune,3,1177,Monsoon,Carence,25894,9416,16478,Cash,97,Thursday,Mid-Spender,Peak,Low
+152,6/7/2024,Goa,Pune,5,1500,Monsoon,Tata Zest,24000,9000,15000,Online,98,Friday,Mid-Spender,Peak,Low
+153,6/8/2024,Varanasi,Hyderabad,4,1200,Monsoon,Aura,19200,7200,12000,Card,236,Saturday,Budget-Spender,Peak,Medium
+154,6/9/2024,Goa,Delhi,6,2028,Monsoon,Innova,46644,16224,30420,Online,143,Sunday,High-Spender,Peak,High
+155,6/10/2024,Chennai,Delhi,4,2368,Monsoon,Artica,44992,16576,28416,Card,386,Monday,High-Spender,Peak,High
+156,6/11/2024,Agra,Chennai,1,546,Monsoon,Tata Zest,8736,3276,5460,Card,304,Tuesday,Budget-Spender,Peak,Low
+157,6/12/2024,Hyderabad,Odisha,5,1826,Monsoon,Shift Dizire,29216,10956,18260,Card,451,Wednesday,Mid-Spender,Peak,High
+158,6/13/2024,Odisha,Shimla,5,1500,Monsoon,Crista,40500,15000,25500,Cash,100,Thursday,High-Spender,Peak,Medium
+159,6/14/2024,Agra,Rishikesh,2,600,Monsoon,Carence,13200,4800,8400,Cash,440,Friday,Budget-Spender,Peak,High
+160,6/15/2024,Chennai,Pune,2,802,Monsoon,Crista,21654,8020,13634,Card,148,Saturday,Budget-Spender,Peak,Low
+161,6/16/2024,Goa,Rishikesh,3,1739,Monsoon,Innova,39997,13912,26085,Online,340,Sunday,High-Spender,Peak,High
+162,6/17/2024,Agra,Varanasi,4,1200,Monsoon,Etios,19200,7200,12000,Card,327,Monday,Budget-Spender,Peak,Medium
+163,6/18/2024,Jaipur,Chennai,3,1206,Monsoon,Aura,19296,7236,12060,Online,459,Tuesday,Budget-Spender,Peak,Low
+164,6/19/2024,Manali,Varanasi,3,2450,Monsoon,Aura,39200,14700,24500,Cash,250,Wednesday,Mid-Spender,Peak,Medium
+165,6/20/2024,Shimla,Manali,2,600,Monsoon,Innova,13800,4800,9000,Card,213,Thursday,Budget-Spender,Peak,Low
+166,6/21/2024,Pune,Manali,6,2329,Monsoon,Tata Zest,37264,13974,23290,Card,241,Friday,Mid-Spender,Peak,Low
+167,6/22/2024,Udaipur,Goa,7,2100,Monsoon,Tata Zest,33600,12600,21000,Online,244,Saturday,Mid-Spender,Peak,High
+168,6/23/2024,Manali,Agra,3,1395,Monsoon,Tata Zest,22320,8370,13950,Card,429,Sunday,Budget-Spender,Peak,Low
+169,6/24/2024,Rishikesh,Kolkata,7,2100,Monsoon,Innova,48300,16800,31500,Card,74,Monday,High-Spender,Peak,Low
+170,6/25/2024,Mumbai,Hyderabad,5,2043,Monsoon,Tata Zest,32688,12258,20430,Cash,293,Tuesday,Mid-Spender,Peak,Medium
+171,6/26/2024,Pune,Odisha,3,1942,Monsoon,Shift Dizire,31072,11652,19420,Online,199,Wednesday,Mid-Spender,Peak,High
+172,6/27/2024,Rishikesh,Hyderabad,2,600,Monsoon,Toyota Rumion,12600,4800,7800,Cash,364,Thursday,Budget-Spender,Peak,Medium
+173,6/28/2024,Bangalore,Agra,5,2489,Monsoon,Toyota Rumion,52269,19912,32357,Cash,59,Friday,High-Spender,Peak,Low
+174,6/29/2024,Varanasi,Delhi,7,2100,Monsoon,Tata Zest,33600,12600,21000,Card,396,Saturday,Mid-Spender,Peak,High
+175,6/30/2024,Rishikesh,Jaipur,6,1800,Monsoon,Crista,48600,18000,30600,Cash,311,Sunday,High-Spender,Peak,High
+176,7/1/2024,Udaipur,Agra,1,350,Monsoon,Tata Zest,5600,2100,3500,Cash,306,Monday,Budget-Spender,Off-Peak,Low
+177,7/2/2024,Agra,Odisha,3,1400,Monsoon,Tata Zest,22400,8400,14000,Cash,359,Tuesday,Budget-Spender,Off-Peak,High
+178,7/3/2024,Goa,Odisha,2,2401,Monsoon,Innova,55223,19208,36015,Cash,53,Wednesday,High-Spender,Off-Peak,High
+179,7/4/2024,Pune,Goa,6,1800,Monsoon,Innova,41400,14400,27000,Card,116,Thursday,High-Spender,Off-Peak,High
+180,7/5/2024,Pune,Agra,1,476,Monsoon,Carence,10472,3808,6664,Cash,158,Friday,Budget-Spender,Off-Peak,Low
+181,7/6/2024,Odisha,Rishikesh,5,2287,Monsoon,Artica,43453,16009,27444,Card,264,Saturday,High-Spender,Off-Peak,High
+182,7/7/2024,Manali,Delhi,3,1502,Monsoon,Carence,33044,12016,21028,Online,243,Sunday,Mid-Spender,Off-Peak,High
+183,7/8/2024,Hyderabad,Jaipur,3,1352,Monsoon,Innova,31096,10816,20280,Cash,422,Monday,Mid-Spender,Off-Peak,High
+184,7/9/2024,Chennai,Delhi,3,2266,Monsoon,Crista,61182,22660,38522,Cash,320,Tuesday,High-Spender,Off-Peak,High
+185,7/10/2024,Hyderabad,Varanasi,1,608,Monsoon,Crista,16416,6080,10336,Cash,477,Wednesday,Budget-Spender,Off-Peak,Medium
+186,7/11/2024,Chennai,Delhi,4,1918,Monsoon,Carence,42196,15344,26852,Online,329,Thursday,High-Spender,Off-Peak,High
+187,7/12/2024,Pune,Goa,1,460,Monsoon,Crista,12420,4600,7820,Cash,72,Friday,Budget-Spender,Off-Peak,High
+188,7/13/2024,Goa,Delhi,3,1290,Monsoon,Shift Dizire,20640,7740,12900,Card,402,Saturday,Budget-Spender,Off-Peak,High
+189,7/14/2024,Odisha,Varanasi,6,1800,Monsoon,Crista,48600,18000,30600,Cash,72,Sunday,High-Spender,Off-Peak,Medium
+190,7/15/2024,Kolkata,Jaipur,2,919,Monsoon,Tata Zest,14704,5514,9190,Cash,425,Monday,Budget-Spender,Off-Peak,High
+191,7/16/2024,Varanasi,Bangalore,4,2498,Monsoon,Innova,57454,19984,37470,Online,56,Tuesday,High-Spender,Off-Peak,Low
+192,7/17/2024,Udaipur,Odisha,3,900,Monsoon,Crista,24300,9000,15300,Cash,475,Wednesday,Mid-Spender,Off-Peak,High
+193,7/18/2024,Varanasi,Rishikesh,6,1800,Monsoon,Innova,41400,14400,27000,Cash,151,Thursday,High-Spender,Off-Peak,High
+194,7/19/2024,Chennai,Jaipur,7,2100,Monsoon,Aura,33600,12600,21000,Cash,477,Friday,Mid-Spender,Off-Peak,High
+195,7/20/2024,Shimla,Pune,7,2100,Monsoon,Aura,33600,12600,21000,Online,383,Saturday,Mid-Spender,Off-Peak,Low
+196,7/22/2024,Delhi,Chennai,6,2200,Monsoon,Crista,59400,22000,37400,Card,487,Monday,High-Spender,Off-Peak,Low
+197,7/23/2024,Goa,Udaipur,7,2100,Monsoon,Artica,39900,14700,25200,Cash,213,Tuesday,Mid-Spender,Off-Peak,Medium
+198,7/24/2024,Chennai,Shimla,6,2043,Monsoon,Innova,46989,16344,30645,Card,183,Wednesday,High-Spender,Off-Peak,Medium
+199,7/25/2024,Hyderabad,Odisha,1,2325,Monsoon,Carence,51150,18600,32550,Online,85,Thursday,High-Spender,Off-Peak,High
+200,7/27/2024,Kolkata,Bangalore,7,2100,Monsoon,Toyota Rumion,44100,16800,27300,Online,358,Saturday,High-Spender,Off-Peak,Low
+201,7/28/2024,Rishikesh,Mumbai,2,1508,Monsoon,Crista,40716,15080,25636,Cash,477,Sunday,High-Spender,Off-Peak,Medium
+202,7/29/2024,Chennai,Shimla,3,900,Monsoon,Carence,19800,7200,12600,Cash,378,Monday,Budget-Spender,Off-Peak,Medium
+203,7/30/2024,Bangalore,Manali,1,2036,Monsoon,Carence,44792,16288,28504,Online,107,Tuesday,High-Spender,Off-Peak,Low
+204,7/31/2024,Udaipur,Pune,4,1943,Monsoon,Carence,42746,15544,27202,Cash,140,Wednesday,High-Spender,Off-Peak,Low
+205,8/2/2024,Hyderabad,Jaipur,4,1291,Monsoon,Carence,28402,10328,18074,Online,216,Friday,Mid-Spender,Off-Peak,High
+206,8/3/2024,Bangalore,Kolkata,4,1782,Monsoon,Artica,33858,12474,21384,Online,107,Saturday,Mid-Spender,Off-Peak,Low
+207,8/4/2024,Udaipur,Delhi,4,1200,Monsoon,Tata Zest,19200,7200,12000,Online,275,Sunday,Budget-Spender,Off-Peak,High
+208,8/5/2024,Jaipur,Delhi,7,2106,Monsoon,Aura,33696,12636,21060,Cash,336,Monday,Mid-Spender,Off-Peak,High
+209,8/6/2024,Delhi,Jaipur,6,1800,Monsoon,Innova,41400,14400,27000,Card,76,Tuesday,High-Spender,Off-Peak,High
+210,8/8/2024,Kolkata,Hyderabad,3,1566,Monsoon,Aura,25056,9396,15660,Card,407,Thursday,Mid-Spender,Off-Peak,Medium
+211,8/9/2024,Udaipur,Agra,6,1800,Monsoon,Tata Zest,28800,10800,18000,Card,289,Friday,Mid-Spender,Off-Peak,Low
+212,8/10/2024,Rishikesh,Kolkata,6,1800,Monsoon,Innova,41400,14400,27000,Online,492,Saturday,High-Spender,Off-Peak,Low
+213,8/12/2024,Pune,Kolkata,6,1800,Monsoon,Shift Dizire,28800,10800,18000,Online,474,Monday,Mid-Spender,Off-Peak,Low
+214,8/13/2024,Shimla,Rishikesh,5,2280,Monsoon,Etios,36480,13680,22800,Card,468,Tuesday,Mid-Spender,Off-Peak,High
+215,8/14/2024,Agra,Odisha,4,1400,Monsoon,Artica,26600,9800,16800,Online,199,Wednesday,Mid-Spender,Off-Peak,High
+216,8/15/2024,Mumbai,Odisha,5,1500,Monsoon,Innova,34500,12000,22500,Cash,212,Thursday,Mid-Spender,Off-Peak,High
+217,8/16/2024,Udaipur,Jaipur,5,1500,Monsoon,Toyota Rumion,31500,12000,19500,Card,247,Friday,Mid-Spender,Off-Peak,High
+218,8/17/2024,Odisha,Udaipur,3,1081,Monsoon,Innova,24863,8648,16215,Card,365,Saturday,Mid-Spender,Off-Peak,Medium
+219,8/18/2024,Goa,Bangalore,7,2100,Monsoon,Carence,46200,16800,29400,Online,201,Sunday,High-Spender,Off-Peak,Low
+220,8/20/2024,Manali,Mumbai,2,1787,Monsoon,Tata Zest,28592,10722,17870,Online,81,Tuesday,Mid-Spender,Off-Peak,Medium
+221,8/21/2024,Mumbai,Jaipur,5,1500,Monsoon,Aura,24000,9000,15000,Online,434,Wednesday,Mid-Spender,Off-Peak,High
+222,8/23/2024,Delhi,Kolkata,3,1500,Monsoon,Etios,24000,9000,15000,Cash,440,Friday,Mid-Spender,Off-Peak,Low
+223,8/24/2024,Delhi,Goa,6,1800,Monsoon,Aura,28800,10800,18000,Cash,491,Saturday,Mid-Spender,Off-Peak,High
+224,8/25/2024,Jaipur,Pune,7,2100,Monsoon,Crista,56700,21000,35700,Online,87,Sunday,High-Spender,Off-Peak,Low
+225,8/26/2024,Agra,Odisha,4,1400,Monsoon,Toyota Rumion,29400,11200,18200,Cash,126,Monday,Mid-Spender,Off-Peak,High
+226,8/27/2024,Varanasi,Shimla,6,1978,Monsoon,Carence,43516,15824,27692,Cash,239,Tuesday,High-Spender,Off-Peak,Medium
+227,8/28/2024,Mumbai,Chennai,3,2160,Monsoon,Aura,34560,12960,21600,Online,361,Wednesday,Mid-Spender,Off-Peak,Low
+228,8/29/2024,Kolkata,Rishikesh,6,1800,Monsoon,Tata Zest,28800,10800,18000,Card,481,Thursday,Mid-Spender,Off-Peak,High
+229,8/30/2024,Varanasi,Bangalore,6,1800,Monsoon,Etios,28800,10800,18000,Online,246,Friday,Mid-Spender,Off-Peak,Low
+230,8/31/2024,Mumbai,Goa,1,590,Monsoon,Artica,11210,4130,7080,Online,431,Saturday,Budget-Spender,Off-Peak,High
+231,9/1/2024,Goa,Pune,3,2354,Autumn,Aura,37664,14124,23540,Cash,235,Sunday,Mid-Spender,Off-Peak,Low
+232,9/2/2024,Odisha,Manali,6,2190,Autumn,Artica,41610,15330,26280,Online,113,Monday,High-Spender,Off-Peak,Low
+233,9/3/2024,Odisha,Mumbai,5,1500,Autumn,Artica,28500,10500,18000,Card,446,Tuesday,Mid-Spender,Off-Peak,Medium
+234,9/4/2024,Hyderabad,Rishikesh,7,2493,Autumn,Shift Dizire,39888,14958,24930,Cash,294,Wednesday,Mid-Spender,Off-Peak,High
+235,9/5/2024,Rishikesh,Bangalore,5,1500,Autumn,Aura,24000,9000,15000,Online,288,Thursday,Mid-Spender,Off-Peak,Low
+236,9/6/2024,Chennai,Varanasi,4,1200,Autumn,Shift Dizire,19200,7200,12000,Cash,153,Friday,Budget-Spender,Off-Peak,Medium
+237,9/7/2024,Pune,Shimla,6,1800,Autumn,Innova,41400,14400,27000,Online,236,Saturday,High-Spender,Off-Peak,Medium
+238,9/8/2024,Kolkata,Goa,5,1500,Autumn,Toyota Rumion,31500,12000,19500,Online,375,Sunday,Mid-Spender,Off-Peak,High
+239,9/9/2024,Jaipur,Chennai,2,1441,Autumn,Tata Zest,23056,8646,14410,Online,227,Monday,Budget-Spender,Off-Peak,Low
+240,9/10/2024,Goa,Pune,1,611,Autumn,Shift Dizire,9776,3666,6110,Card,411,Tuesday,Budget-Spender,Off-Peak,Low
+241,9/11/2024,Udaipur,Rishikesh,4,1857,Autumn,Tata Zest,29712,11142,18570,Cash,84,Wednesday,Mid-Spender,Off-Peak,High
+242,9/12/2024,Agra,Hyderabad,5,2017,Autumn,Innova,46391,16136,30255,Cash,205,Thursday,High-Spender,Off-Peak,Medium
+243,9/13/2024,Shimla,Varanasi,7,2377,Autumn,Etios,38032,14262,23770,Card,80,Friday,Mid-Spender,Off-Peak,Medium
+244,9/14/2024,Manali,Rishikesh,7,2479,Autumn,Tata Zest,39664,14874,24790,Online,113,Saturday,Mid-Spender,Off-Peak,High
+245,9/15/2024,Udaipur,Agra,1,864,Autumn,Shift Dizire,13824,5184,8640,Cash,100,Sunday,Budget-Spender,Off-Peak,Low
+246,9/16/2024,Pune,Shimla,6,1800,Autumn,Shift Dizire,28800,10800,18000,Card,106,Monday,Mid-Spender,Off-Peak,Medium
+247,9/17/2024,Shimla,Goa,3,1348,Autumn,Crista,36396,13480,22916,Cash,143,Tuesday,Mid-Spender,Off-Peak,High
+248,9/18/2024,Jaipur,Varanasi,5,1500,Autumn,Innova,34500,12000,22500,Card,75,Wednesday,Mid-Spender,Off-Peak,Medium
+249,9/19/2024,Bangalore,Rishikesh,1,780,Autumn,Carence,17160,6240,10920,Card,458,Thursday,Budget-Spender,Off-Peak,High
+250,9/20/2024,Delhi,Pune,1,2054,Autumn,Etios,32864,12324,20540,Card,53,Friday,Mid-Spender,Off-Peak,Low
+251,9/21/2024,Manali,Chennai,1,574,Autumn,Crista,15498,5740,9758,Card,153,Saturday,Budget-Spender,Off-Peak,Low
+252,9/22/2024,Manali,Rishikesh,2,897,Autumn,Innova,20631,7176,13455,Online,70,Sunday,Budget-Spender,Off-Peak,High
+253,9/23/2024,Jaipur,Agra,6,1800,Autumn,Innova,41400,14400,27000,Online,180,Monday,High-Spender,Off-Peak,Low
+254,9/24/2024,Rishikesh,Udaipur,2,1342,Autumn,Etios,21472,8052,13420,Cash,136,Tuesday,Budget-Spender,Off-Peak,Medium
+255,9/25/2024,Varanasi,Goa,5,1500,Autumn,Innova,34500,12000,22500,Online,486,Wednesday,Mid-Spender,Off-Peak,High
+256,9/26/2024,Odisha,Kolkata,2,1538,Autumn,Etios,24608,9228,15380,Online,77,Thursday,Mid-Spender,Off-Peak,Low
+257,9/27/2024,Bangalore,Chennai,6,1800,Autumn,Tata Zest,28800,10800,18000,Online,297,Friday,Mid-Spender,Off-Peak,Low
+258,9/28/2024,Mumbai,Hyderabad,6,1800,Autumn,Shift Dizire,28800,10800,18000,Card,309,Saturday,Mid-Spender,Off-Peak,Medium
+259,9/30/2024,Bangalore,Goa,5,1606,Autumn,Crista,43362,16060,27302,Cash,365,Monday,High-Spender,Off-Peak,High
+260,10/1/2024,Bangalore,Goa,2,1774,Autumn,Aura,28384,10644,17740,Cash,437,Tuesday,Mid-Spender,Off-Peak,High
+261,10/2/2024,Shimla,Delhi,4,1486,Autumn,Aura,23776,8916,14860,Cash,446,Wednesday,Mid-Spender,Off-Peak,High
+262,10/3/2024,Mumbai,Udaipur,3,1697,Autumn,Shift Dizire,27152,10182,16970,Card,191,Thursday,Mid-Spender,Off-Peak,Medium
+263,10/4/2024,Jaipur,Odisha,5,1853,Autumn,Etios,29648,11118,18530,Online,279,Friday,Mid-Spender,Off-Peak,High
+264,10/5/2024,Udaipur,Chennai,2,600,Autumn,Innova,13800,4800,9000,Online,284,Saturday,Budget-Spender,Off-Peak,Low
+265,10/6/2024,Shimla,Chennai,1,1705,Autumn,Toyota Rumion,35805,13640,22165,Card,269,Sunday,Mid-Spender,Off-Peak,Low
+266,10/7/2024,Odisha,Agra,7,2100,Autumn,Carence,46200,16800,29400,Cash,499,Monday,High-Spender,Off-Peak,Low
+267,10/8/2024,Kolkata,Manali,3,2316,Autumn,Crista,62532,23160,39372,Card,100,Tuesday,High-Spender,Off-Peak,Low
+268,10/9/2024,Varanasi,Rishikesh,6,2184,Autumn,Aura,34944,13104,21840,Cash,330,Wednesday,Mid-Spender,Off-Peak,High
+269,10/10/2024,Delhi,Odisha,7,2100,Autumn,Tata Zest,33600,12600,21000,Online,481,Thursday,Mid-Spender,Off-Peak,High
+270,10/11/2024,Chennai,Shimla,4,1207,Autumn,Tata Zest,19312,7242,12070,Card,415,Friday,Budget-Spender,Off-Peak,Medium
+271,10/12/2024,Bangalore,Udaipur,3,1369,Autumn,Crista,36963,13690,23273,Online,394,Saturday,Mid-Spender,Off-Peak,Medium
+272,10/13/2024,Pune,Varanasi,2,2029,Autumn,Shift Dizire,32464,12174,20290,Cash,238,Sunday,Mid-Spender,Off-Peak,Medium
+273,10/14/2024,Chennai,Manali,2,2386,Autumn,Etios,38176,14316,23860,Online,221,Monday,Mid-Spender,Off-Peak,Low
+274,10/15/2024,Rishikesh,Pune,2,1299,Autumn,Carence,28578,10392,18186,Cash,244,Tuesday,Mid-Spender,Off-Peak,Low
+275,10/16/2024,Delhi,Mumbai,7,2100,Autumn,Tata Zest,33600,12600,21000,Card,59,Wednesday,Mid-Spender,Off-Peak,Medium
+276,10/17/2024,Bangalore,Agra,2,1635,Autumn,Etios,26160,9810,16350,Online,350,Thursday,Mid-Spender,Off-Peak,Low
+277,10/18/2024,Rishikesh,Shimla,4,1200,Autumn,Innova,27600,9600,18000,Card,139,Friday,Mid-Spender,Off-Peak,Medium
+278,10/19/2024,Goa,Odisha,5,1500,Autumn,Crista,40500,15000,25500,Cash,392,Saturday,High-Spender,Off-Peak,High
+279,10/20/2024,Udaipur,Agra,2,2277,Autumn,Crista,61479,22770,38709,Cash,439,Sunday,High-Spender,Off-Peak,Low
+280,10/21/2024,Agra,Goa,2,1622,Autumn,Etios,25952,9732,16220,Card,439,Monday,Mid-Spender,Off-Peak,High
+281,10/22/2024,Kolkata,Manali,5,1500,Autumn,Etios,24000,9000,15000,Cash,359,Tuesday,Mid-Spender,Off-Peak,Low
+282,10/23/2024,Chennai,Jaipur,7,2100,Autumn,Etios,33600,12600,21000,Cash,432,Wednesday,Mid-Spender,Off-Peak,High
+283,10/24/2024,Kolkata,Manali,4,1200,Autumn,Tata Zest,19200,7200,12000,Cash,90,Thursday,Budget-Spender,Off-Peak,Low
+284,10/25/2024,Kolkata,Odisha,2,600,Autumn,Aura,9600,3600,6000,Online,92,Friday,Budget-Spender,Off-Peak,High
+285,10/26/2024,Pune,Jaipur,5,1500,Autumn,Carence,33000,12000,21000,Online,315,Saturday,Mid-Spender,Off-Peak,High
+286,10/27/2024,Bangalore,Goa,1,800,Autumn,Aura,12800,4800,8000,Online,496,Sunday,Budget-Spender,Off-Peak,High
+287,10/28/2024,Chennai,Bangalore,5,1591,Autumn,Aura,25456,9546,15910,Cash,249,Monday,Mid-Spender,Off-Peak,Low
+288,10/29/2024,Goa,Udaipur,5,1500,Autumn,Shift Dizire,24000,9000,15000,Online,113,Tuesday,Mid-Spender,Off-Peak,Medium
+289,10/30/2024,Agra,Hyderabad,5,2147,Autumn,Crista,57969,21470,36499,Online,352,Wednesday,High-Spender,Off-Peak,Medium
+290,10/31/2024,Rishikesh,Hyderabad,7,2100,Autumn,Etios,33600,12600,21000,Cash,276,Thursday,Mid-Spender,Off-Peak,Medium
+291,11/1/2024,Jaipur,Bangalore,7,2100,Summer,Shift Dizire,33600,12600,21000,Online,417,Friday,Mid-Spender,Off-Peak,Low
+292,11/2/2024,Bangalore,Kolkata,4,1352,Summer,Shift Dizire,21632,8112,13520,Online,93,Saturday,Budget-Spender,Off-Peak,Low
+293,11/3/2024,Delhi,Shimla,5,1500,Summer,Aura,24000,9000,15000,Card,320,Sunday,Mid-Spender,Off-Peak,Medium
+294,11/4/2024,Shimla,Jaipur,4,1346,Summer,Aura,21536,8076,13460,Cash,59,Monday,Budget-Spender,Off-Peak,High
+295,11/5/2024,Chennai,Odisha,7,2100,Summer,Innova,48300,16800,31500,Online,113,Tuesday,High-Spender,Off-Peak,High
+296,11/6/2024,Udaipur,Shimla,1,1998,Summer,Etios,31968,11988,19980,Online,429,Wednesday,Mid-Spender,Off-Peak,Medium
+297,11/7/2024,Rishikesh,Odisha,7,2161,Summer,Carence,47542,17288,30254,Card,329,Thursday,High-Spender,Off-Peak,High
+298,11/8/2024,Chennai,Bangalore,7,2449,Summer,Artica,46531,17143,29388,Card,180,Friday,High-Spender,Off-Peak,Low
+299,11/9/2024,Hyderabad,Bangalore,3,900,Summer,Shift Dizire,14400,5400,9000,Cash,364,Saturday,Budget-Spender,Off-Peak,Low
+300,11/10/2024,Bangalore,Varanasi,6,1800,Summer,Aura,28800,10800,18000,Card,422,Sunday,Mid-Spender,Off-Peak,Medium
+301,11/11/2024,Kolkata,Manali,4,1881,Summer,Innova,43263,15048,28215,Cash,50,Monday,High-Spender,Off-Peak,Low
+302,11/12/2024,Goa,Agra,1,1463,Summer,Aura,23408,8778,14630,Online,221,Tuesday,Budget-Spender,Off-Peak,Low
+303,11/13/2024,Chennai,Goa,2,1949,Summer,Crista,52623,19490,33133,Cash,102,Wednesday,High-Spender,Off-Peak,High
+304,11/14/2024,Goa,Delhi,3,900,Summer,Toyota Rumion,18900,7200,11700,Cash,405,Thursday,Budget-Spender,Off-Peak,High
+305,11/15/2024,Delhi,Pune,7,2100,Summer,Aura,33600,12600,21000,Cash,487,Friday,Mid-Spender,Off-Peak,Low
+306,11/16/2024,Jaipur,Kolkata,1,802,Summer,Artica,15238,5614,9624,Online,447,Saturday,Budget-Spender,Off-Peak,Low
+307,11/17/2024,Pune,Chennai,3,2280,Summer,Innova,52440,18240,34200,Cash,459,Sunday,High-Spender,Off-Peak,Low
+308,11/18/2024,Mumbai,Bangalore,4,1200,Summer,Tata Zest,19200,7200,12000,Cash,494,Monday,Budget-Spender,Off-Peak,Low
+309,11/19/2024,Kolkata,Udaipur,1,1606,Summer,Etios,25696,9636,16060,Online,152,Tuesday,Mid-Spender,Off-Peak,Medium
+310,11/20/2024,Bangalore,Varanasi,6,2202,Summer,Crista,59454,22020,37434,Online,76,Wednesday,High-Spender,Off-Peak,Medium
+311,11/21/2024,Shimla,Jaipur,4,1565,Summer,Shift Dizire,25040,9390,15650,Cash,141,Thursday,Mid-Spender,Off-Peak,High
+312,11/22/2024,Chennai,Udaipur,1,1541,Summer,Carence,33902,12328,21574,Online,201,Friday,Mid-Spender,Off-Peak,Medium
+313,11/23/2024,Mumbai,Hyderabad,5,1500,Summer,Etios,24000,9000,15000,Online,469,Saturday,Mid-Spender,Off-Peak,Medium
+314,11/24/2024,Odisha,Jaipur,4,1220,Summer,Shift Dizire,19520,7320,12200,Cash,127,Sunday,Budget-Spender,Off-Peak,High
+315,11/25/2024,Manali,Bangalore,1,376,Summer,Shift Dizire,6016,2256,3760,Card,258,Monday,Budget-Spender,Off-Peak,Low
+316,11/26/2024,Delhi,Hyderabad,3,1588,Summer,Shift Dizire,25408,9528,15880,Online,201,Tuesday,Mid-Spender,Off-Peak,Medium
+317,11/27/2024,Pune,Manali,7,2100,Summer,Shift Dizire,33600,12600,21000,Card,127,Wednesday,Mid-Spender,Off-Peak,Low
+318,11/28/2024,Hyderabad,Odisha,4,1200,Summer,Carence,26400,9600,16800,Online,315,Thursday,Mid-Spender,Off-Peak,High
+319,11/29/2024,Manali,Rishikesh,6,1800,Summer,Artica,34200,12600,21600,Cash,462,Friday,Mid-Spender,Off-Peak,High
+320,11/30/2024,Jaipur,Odisha,5,1500,Summer,Innova,34500,12000,22500,Online,68,Saturday,Mid-Spender,Off-Peak,High
+321,12/1/2024,Shimla,Delhi,2,1052,Winter,Shift Dizire,16832,6312,10520,Card,397,Sunday,Budget-Spender,Peak,High
+322,12/2/2024,Odisha,Kolkata,5,1500,Winter,Shift Dizire,24000,9000,15000,Card,165,Monday,Mid-Spender,Peak,Low
+323,12/3/2024,Bangalore,Delhi,2,615,Winter,Carence,13530,4920,8610,Card,56,Tuesday,Budget-Spender,Peak,High
+324,12/4/2024,Manali,Bangalore,6,2193,Winter,Artica,41667,15351,26316,Online,203,Wednesday,High-Spender,Peak,Low
+325,12/5/2024,Shimla,Varanasi,1,1707,Winter,Innova,39261,13656,25605,Card,295,Thursday,Mid-Spender,Peak,Medium
+326,12/6/2024,Jaipur,Shimla,2,2102,Winter,Artica,39938,14714,25224,Card,254,Friday,High-Spender,Peak,Medium
+327,12/7/2024,Jaipur,Delhi,5,1500,Winter,Crista,40500,15000,25500,Cash,383,Saturday,High-Spender,Peak,High
+328,12/8/2024,Mumbai,Udaipur,4,1229,Winter,Etios,19664,7374,12290,Cash,379,Sunday,Budget-Spender,Peak,Medium
+329,12/9/2024,Hyderabad,Goa,5,1633,Winter,Shift Dizire,26128,9798,16330,Card,486,Monday,Mid-Spender,Peak,High
+330,12/10/2024,Hyderabad,Rishikesh,5,2288,Winter,Crista,61776,22880,38896,Card,238,Tuesday,High-Spender,Peak,High
+331,12/11/2024,Agra,Manali,2,917,Winter,Artica,17423,6419,11004,Online,412,Wednesday,Budget-Spender,Peak,Low
+332,12/12/2024,Kolkata,Odisha,5,1500,Winter,Shift Dizire,24000,9000,15000,Card,339,Thursday,Mid-Spender,Peak,High
+333,12/13/2024,Odisha,Rishikesh,7,2100,Winter,Shift Dizire,33600,12600,21000,Cash,182,Friday,Mid-Spender,Peak,High
+334,12/14/2024,Shimla,Manali,5,1500,Winter,Aura,24000,9000,15000,Online,384,Saturday,Mid-Spender,Peak,Low
+335,12/15/2024,Chennai,Shimla,6,2024,Winter,Crista,54648,20240,34408,Card,416,Sunday,High-Spender,Peak,Medium
+336,12/16/2024,Bangalore,Odisha,7,2100,Winter,Artica,39900,14700,25200,Online,390,Monday,Mid-Spender,Peak,High
+337,12/17/2024,Udaipur,Agra,2,1249,Winter,Artica,23731,8743,14988,Online,362,Tuesday,Mid-Spender,Peak,Low
+338,12/18/2024,Rishikesh,Varanasi,2,2101,Winter,Innova,48323,16808,31515,Online,338,Wednesday,High-Spender,Peak,Medium
+339,12/19/2024,Mumbai,Odisha,7,2303,Winter,Carence,50666,18424,32242,Online,382,Thursday,High-Spender,Peak,High
+340,12/20/2024,Hyderabad,Varanasi,4,1200,Winter,Crista,32400,12000,20400,Card,131,Friday,Mid-Spender,Peak,Medium
+341,12/21/2024,Mumbai,Goa,4,1200,Winter,Tata Zest,19200,7200,12000,Cash,55,Saturday,Budget-Spender,Peak,High
+342,12/22/2024,Odisha,Hyderabad,4,1869,Winter,Artica,35511,13083,22428,Cash,159,Sunday,Mid-Spender,Peak,Medium
+343,12/23/2024,Chennai,Odisha,7,2100,Winter,Shift Dizire,33600,12600,21000,Online,393,Monday,Mid-Spender,Peak,High
+344,12/24/2024,Agra,Jaipur,3,1616,Winter,Carence,35552,12928,22624,Card,361,Tuesday,Mid-Spender,Peak,High
+345,12/25/2024,Chennai,Odisha,3,1391,Winter,Aura,22256,8346,13910,Online,465,Wednesday,Budget-Spender,Peak,High
+346,12/26/2024,Jaipur,Goa,6,1800,Winter,Crista,48600,18000,30600,Online,62,Thursday,High-Spender,Peak,High
+347,12/27/2024,Hyderabad,Kolkata,5,1500,Winter,Aura,24000,9000,15000,Card,484,Friday,Mid-Spender,Peak,Low
+348,12/28/2024,Jaipur,Udaipur,6,1882,Winter,Toyota Rumion,39522,15056,24466,Card,452,Saturday,Mid-Spender,Peak,Medium
+349,12/29/2024,Kolkata,Mumbai,4,2452,Winter,Aura,39232,14712,24520,Card,179,Sunday,Mid-Spender,Peak,Medium
+350,12/30/2024,Jaipur,Delhi,5,2302,Winter,Etios,36832,13812,23020,Cash,412,Monday,Mid-Spender,Peak,High
+351,12/31/2024,Pune,Delhi,2,600,Winter,Aura,9600,3600,6000,Card,462,Tuesday,Budget-Spender,Peak,High
+352,1/1/2025,Jaipur,Rishikesh,7,2100,Winter,Artica,39900,14700,25200,Cash,152,Wednesday,Mid-Spender,Peak,High
+353,1/2/2025,Goa,Jaipur,2,2470,Winter,Aura,39520,14820,24700,Cash,244,Thursday,Mid-Spender,Peak,High
+354,1/3/2025,Hyderabad,Udaipur,2,2160,Winter,Tata Zest,34560,12960,21600,Card,230,Friday,Mid-Spender,Peak,Medium
+355,1/4/2025,Chennai,Mumbai,7,2190,Winter,Toyota Rumion,45990,17520,28470,Cash,114,Saturday,High-Spender,Peak,Medium
+356,1/5/2025,Delhi,Shimla,6,1800,Winter,Tata Zest,28800,10800,18000,Card,409,Sunday,Mid-Spender,Peak,Medium
+357,1/6/2025,Chennai,Varanasi,4,1200,Winter,Toyota Rumion,25200,9600,15600,Cash,342,Monday,Mid-Spender,Peak,Medium
+358,1/7/2025,Mumbai,Goa,4,1200,Winter,Tata Zest,19200,7200,12000,Card,134,Tuesday,Budget-Spender,Peak,High
+359,1/8/2025,Chennai,Hyderabad,6,1800,Winter,Tata Zest,28800,10800,18000,Cash,203,Wednesday,Mid-Spender,Peak,Medium
+360,1/9/2025,Varanasi,Delhi,7,2100,Winter,Carence,46200,16800,29400,Card,125,Thursday,High-Spender,Peak,High
+361,1/10/2025,Pune,Odisha,4,1200,Winter,Innova,27600,9600,18000,Cash,333,Friday,Mid-Spender,Peak,High
+362,1/11/2025,Hyderabad,Delhi,7,2100,Winter,Toyota Rumion,44100,16800,27300,Online,76,Saturday,High-Spender,Peak,High
+363,1/12/2025,Bangalore,Udaipur,5,1500,Winter,Etios,24000,9000,15000,Cash,495,Sunday,Mid-Spender,Peak,Medium
+364,1/13/2025,Mumbai,Bangalore,3,900,Winter,Toyota Rumion,18900,7200,11700,Online,224,Monday,Budget-Spender,Peak,Low
+365,1/14/2025,Varanasi,Pune,3,1131,Winter,Crista,30537,11310,19227,Cash,203,Tuesday,Mid-Spender,Peak,Low
+366,1/15/2025,Kolkata,Varanasi,5,1885,Winter,Etios,30160,11310,18850,Online,236,Wednesday,Mid-Spender,Peak,Medium
+367,1/16/2025,Pune,Goa,5,1500,Winter,Aura,24000,9000,15000,Card,437,Thursday,Mid-Spender,Peak,High
+368,1/17/2025,Agra,Goa,6,1906,Winter,Shift Dizire,30496,11436,19060,Cash,454,Friday,Mid-Spender,Peak,High
+369,1/18/2025,Mumbai,Kolkata,3,900,Winter,Innova,20700,7200,13500,Card,84,Saturday,Budget-Spender,Peak,Low
+370,1/19/2025,Udaipur,Rishikesh,6,2181,Winter,Etios,34896,13086,21810,Cash,347,Sunday,Mid-Spender,Peak,High
+371,1/20/2025,Hyderabad,Udaipur,5,1500,Winter,Etios,24000,9000,15000,Card,301,Monday,Mid-Spender,Peak,Medium
+372,1/21/2025,Jaipur,Odisha,5,1500,Winter,Shift Dizire,24000,9000,15000,Online,353,Tuesday,Mid-Spender,Peak,High
+373,1/22/2025,Varanasi,Hyderabad,1,1607,Winter,Shift Dizire,25712,9642,16070,Card,141,Wednesday,Mid-Spender,Peak,Medium
+374,1/23/2025,Goa,Chennai,4,1200,Winter,Innova,27600,9600,18000,Cash,90,Thursday,Mid-Spender,Peak,Low
+375,1/24/2025,Chennai,Manali,2,611,Winter,Toyota Rumion,12831,4888,7943,Online,70,Friday,Budget-Spender,Peak,Low
+376,1/25/2025,Goa,Agra,2,782,Winter,Shift Dizire,12512,4692,7820,Cash,286,Saturday,Budget-Spender,Peak,Low
+377,1/26/2025,Chennai,Kolkata,7,2100,Winter,Toyota Rumion,44100,16800,27300,Cash,333,Sunday,High-Spender,Peak,Low
+378,1/27/2025,Udaipur,Odisha,2,1402,Winter,Artica,26638,9814,16824,Card,52,Monday,Mid-Spender,Peak,High
+379,1/28/2025,Jaipur,Shimla,4,1891,Winter,Artica,35929,13237,22692,Cash,161,Tuesday,Mid-Spender,Peak,Medium
+380,1/29/2025,Varanasi,Mumbai,7,2100,Winter,Shift Dizire,33600,12600,21000,Cash,441,Wednesday,Mid-Spender,Peak,Medium
+381,2/1/2025,Jaipur,Delhi,5,2254,Winter,Artica,42826,15778,27048,Card,426,Monday,High-Spender,Peak,High
+382,2/2/2025,Kolkata,Goa,3,1053,Winter,Tata Zest,16848,6318,10530,Card,264,Tuesday,Budget-Spender,Peak,High
+383,2/3/2025,Agra,Jaipur,4,1200,Winter,Artica,22800,8400,14400,Online,363,Wednesday,Budget-Spender,Peak,High
+384,2/4/2025,Manali,Jaipur,2,2460,Winter,Crista,66420,24600,41820,Cash,383,Thursday,High-Spender,Peak,High
+385,2/5/2025,Delhi,Hyderabad,7,2100,Winter,Toyota Rumion,44100,16800,27300,Online,366,Friday,High-Spender,Peak,Medium
+386,2/6/2025,Delhi,Jaipur,7,2100,Winter,Aura,33600,12600,21000,Card,331,Saturday,Mid-Spender,Peak,High
+387,2/7/2025,Shimla,Agra,5,1500,Winter,Crista,40500,15000,25500,Cash,98,Sunday,High-Spender,Peak,Low
+388,2/8/2025,Agra,Rishikesh,1,2490,Winter,Artica,47310,17430,29880,Cash,269,Monday,High-Spender,Peak,High
+389,2/9/2025,Pune,Chennai,6,1800,Winter,Crista,48600,18000,30600,Card,449,Tuesday,High-Spender,Peak,Low
+390,2/10/2025,Udaipur,Odisha,5,1552,Winter,Crista,41904,15520,26384,Card,465,Wednesday,High-Spender,Peak,High
+391,2/11/2025,Manali,Rishikesh,5,2261,Winter,Tata Zest,36176,13566,22610,Online,112,Thursday,Mid-Spender,Peak,High
+392,2/12/2025,Pune,Shimla,4,1756,Winter,Carence,38632,14048,24584,Cash,479,Friday,Mid-Spender,Peak,Medium
+393,2/13/2025,Hyderabad,Goa,5,2347,Winter,Shift Dizire,37552,14082,23470,Card,227,Saturday,Mid-Spender,Peak,High
+394,2/14/2025,Udaipur,Rishikesh,1,698,Winter,Etios,11168,4188,6980,Cash,275,Sunday,Budget-Spender,Peak,High
+395,2/15/2025,Chennai,Mumbai,3,2324,Winter,Toyota Rumion,48804,18592,30212,Online,160,Monday,High-Spender,Peak,Medium
+396,2/16/2025,Pune,Goa,5,1500,Winter,Carence,33000,12000,21000,Online,372,Tuesday,Mid-Spender,Peak,High
+397,2/17/2025,Udaipur,Rishikesh,2,1611,Winter,Etios,25776,9666,16110,Cash,83,Wednesday,Mid-Spender,Peak,High
+398,2/18/2025,Odisha,Goa,2,1457,Winter,Innova,33511,11656,21855,Cash,228,Thursday,Mid-Spender,Peak,High
+399,2/19/2025,Delhi,Chennai,3,2200,Winter,Innova,50600,17600,33000,Online,428,Friday,High-Spender,Peak,Low
+400,2/20/2025,Agra,Kolkata,7,2100,Winter,Shift Dizire,33600,12600,21000,Card,88,Saturday,Mid-Spender,Peak,Low
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
